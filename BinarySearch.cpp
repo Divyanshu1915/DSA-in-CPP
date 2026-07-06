@@ -14,7 +14,6 @@ int binarysearch(int arr[],int len,int target){
         }
         else{
             end=mid-1;
-
         }
     }
     return -1;
@@ -38,3 +37,5 @@ int main(){
         cout<<"Element found at index"<<result;
     }
 }
+
+

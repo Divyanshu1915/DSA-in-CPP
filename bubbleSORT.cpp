@@ -1,6 +1,4 @@
-//
-// Created by Nikita Singh on 03/06/26.
-//
+
 
 #include "bubbleSORT.h"
 #include<iostream>
@@ -16,10 +14,7 @@ int SORT(int len) {
         std:: cout<<"Enter the vakue at index "<<i<<"array:";
         std::cin>>arr1[i];
     }
-
-
     //for the show of the array
-
     for(i=0;i<len;i++){
         cout<<arr1[i]<<"  ";
     }

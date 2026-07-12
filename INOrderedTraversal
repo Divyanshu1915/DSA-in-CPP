@@ -1,0 +1,55 @@
+#include <iostream>
+using namespace std;
+
+// Tree Node class
+class TreeNode {
+public:
+    char data;
+    TreeNode* left;
+    TreeNode* right;
+
+    TreeNode(char value) {
+        data = value;
+        left = nullptr;
+        right = nullptr;
+    }
+};
+
+// Inorder Traversal Function
+void inOrderTraversal(TreeNode* node) {
+    if (node == nullptr)
+        return;
+
+    inOrderTraversal(node->left);
+    cout << node->data << ", ";
+    inOrderTraversal(node->right);
+}
+
+int main() {
+    // Create Nodes
+    TreeNode* root = new TreeNode('R');
+    TreeNode* nodeA = new TreeNode('A');
+    TreeNode* nodeB = new TreeNode('B');
+    TreeNode* nodeC = new TreeNode('C');
+    TreeNode* nodeD = new TreeNode('D');
+    TreeNode* nodeE = new TreeNode('E');
+    TreeNode* nodeF = new TreeNode('F');
+    TreeNode* nodeG = new TreeNode('G');
+
+    // Build Tree
+    root->left = nodeA;
+    root->right = nodeB;
+
+    nodeA->left = nodeC;
+    nodeA->right = nodeD;
+
+    nodeB->left = nodeE;
+    nodeB->right = nodeF;
+
+    nodeF->left = nodeG;
+
+    // Traverse
+    inOrderTraversal(root);
+
+    return 0;
+}

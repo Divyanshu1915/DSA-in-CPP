@@ -1,0 +1,73 @@
+Undirected graph implementation 
+
+#include <iostream>
+using namespace std;
+
+#define SIZE 4
+
+class Graph {
+private:
+    int adjMatrix[SIZE][SIZE];
+    char vertexData[SIZE];
+
+public:
+    // Constructor to initialize graph
+    Graph() {
+        for (int i = 0; i < SIZE; i++) {
+            for (int j = 0; j < SIZE; j++) {
+                adjMatrix[i][j] = 0;
+            }
+            vertexData[i] = '\0';
+        }
+    }
+
+    // Add an edge
+    void addEdge(int u, int v) {
+        if (u >= 0 && u < SIZE && v >= 0 && v < SIZE) {
+            adjMatrix[u][v] = 1;
+            adjMatrix[v][u] = 1;
+        }
+    }
+
+    // Add vertex data
+    void addVertexData(int vertex, char data) {
+        if (vertex >= 0 && vertex < SIZE) {
+            vertexData[vertex] = data;
+        }
+    }
+
+    // Print graph
+    void printGraph() {
+        cout << "Adjacency Matrix:\n";
+        for (int i = 0; i < SIZE; i++) {
+            for (int j = 0; j < SIZE; j++) {
+                cout << adjMatrix[i][j] << " ";
+            }
+            cout << endl;
+        }
+
+        cout << "\nVertex Data:\n";
+        for (int i = 0; i < SIZE; i++) {
+            cout << "Vertex " << i << ": " << vertexData[i] << endl;
+        }
+    }
+};
+
+int main() {
+    Graph g;
+
+    g.addVertexData(0, 'A');
+    g.addVertexData(1, 'B');
+    g.addVertexData(2, 'C');
+    g.addVertexData(3, 'D');
+
+    g.addEdge(0, 1); // A - B
+    g.addEdge(0, 2); // A - C
+    g.addEdge(0, 3); // A - D
+    g.addEdge(1, 2); // B - C
+
+    g.printGraph();
+
+    return 0;
+}
+

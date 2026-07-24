@@ -6,4 +6,4 @@ DSA codes in c++ language
 
 Array
 
-|-BinarySearch.cpp
+-[BinarySearch.cpp](BinarySearch.cpp)

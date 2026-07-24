@@ -5,4 +5,5 @@ DSA codes in c++ language
 ###Searching Techniques
 
 Array
+
 |-BinarySearch.cpp

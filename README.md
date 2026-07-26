@@ -23,4 +23,4 @@ Array
 - Linked List(https://github.com/Divyanshu1915/DSA-in-CPP/edit/linked-List/README.md)
 - Stack(https://github.com/Divyanshu1915/DSA-in-CPP/edit/Stack/README.md)
 - Queue(https://github.com/Divyanshu1915/DSA-in-CPP/blob/Queue/README.md)
-- Hash Table(https://github.com/Divyanshu1915/DSA-in-CPP/edit/Hash-Table-implementation/README.md)
+- Hash Table(https://github.com/Divyanshu1915/DSA-in-CPP/blob/Hash-Table-implementation/README.md)

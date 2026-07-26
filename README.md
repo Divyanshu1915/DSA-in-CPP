@@ -17,6 +17,7 @@ Array
 ### Branches
 
 - Array(https://github.com/Divyanshu1915/DSA-in-CPP/blob/Array/README.md)
+- Sorting Algorithm(https://github.com/Divyanshu1915/DSA-in-CPP/edit/Sorting/README.md)
 - Trees(https://github.com/Divyanshu1915/DSA-in-CPP/edit/Tree-structure/README.md)
 - Graphs(https://github.com/Divyanshu1915/DSA-in-CPP/edit/DSA-GRAPH/README.md)
 - Linked List(https://github.com/Divyanshu1915/DSA-in-CPP/edit/linked-List/README.md)

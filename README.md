@@ -21,4 +21,4 @@ Array
 - Graphs(https://github.com/Divyanshu1915/DSA-in-CPP/edit/DSA-GRAPH/README.md)
 - Linked List(https://github.com/Divyanshu1915/DSA-in-CPP/edit/linked-List/README.md)
 - Stack(https://github.com/Divyanshu1915/DSA-in-CPP/edit/Stack/README.md)
-- Queue
+- Queue(https://github.com/Divyanshu1915/DSA-in-CPP/blob/Queue/README.md)

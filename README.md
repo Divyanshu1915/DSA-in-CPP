@@ -11,10 +11,3 @@ DSA codes in c++ language
 ### Branches
 
 - Array(https://github.com/Divyanshu1915/DSA-in-CPP/blob/Array/README.md)
-- Sorting Algorithm(https://github.com/Divyanshu1915/DSA-in-CPP/edit/Sorting/README.md)
-- Trees(https://github.com/Divyanshu1915/DSA-in-CPP/edit/Tree-structure/README.md)
-- Graphs(https://github.com/Divyanshu1915/DSA-in-CPP/edit/DSA-GRAPH/README.md)
-- Linked List(https://github.com/Divyanshu1915/DSA-in-CPP/edit/linked-List/README.md)
-- Stack(https://github.com/Divyanshu1915/DSA-in-CPP/edit/Stack/README.md)
-- Queue(https://github.com/Divyanshu1915/DSA-in-CPP/blob/Queue/README.md)
-- Hash Table(https://github.com/Divyanshu1915/DSA-in-CPP/blob/Hash-Table-implementation/README.md)
